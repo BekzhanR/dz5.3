@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Dokdo, sans-serif;
+}
+
+
+body {
+    background-color: darkred;
+}
+
+.nobody {
+    display: flex;
+    justify-content: space-around;
+    color: yellow;
+    width: 700px;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+.nav_ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.nav_ul li {
+    list-style: none;
+}
+
+.nav_ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.nav_ul li a:hover {
+    font-size: 1.5em;
+
+}
+
+.nav {
+    background: #ffd300;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: wheat;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background: #ffd400;
+    margin: 30px auto;
+    padding: 20px;
+    width: 1000px;
+    border-radius: 20px;
+
+
+}
+
+.list_ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 50px auto;
+    list-style: none;
+    gap: 10px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #ffd400;
+}
+
+.list_ul a {
+    color: black;
+}
+
+.list_ul a:hover{
+    font-size: 1.1em;
+}
+
+
+.big_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+ol li {
+    padding: 30px;
+    background: darkred;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    list-style: none;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+ol li:hover {
+    transform: rotate(360deg);
+}
+
+.link {
+    color: wheat;
+    text-decoration: none;
+    text-align: left;
+}
+
+.list_li {
+    text-align: left;
+    text-indent: 10px;
+}
+
+
